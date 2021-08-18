@@ -1,0 +1,112 @@
+/*=====GENERAL======*/
+body{
+    background-color: rgba(196, 196, 196, 0.17);
+    margin-bottom: 300px;
+}
+.wrapper{
+    margin: auto;
+    width: auto;
+}
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 48px;
+    margin-left: 90px;
+}
+h3{
+    font-size: 48px;
+}
+.coor{
+    margin-left: 200px;
+}
+label{
+    display: block;
+    font-size: 24px;
+    line-height: 2em;
+}
+input  {
+    line-height: 2em;
+    padding-right: 40px;
+}
+
+/*======Particulier=====*/
+.haut_de_page{
+    display: flex;
+    justify-content: space-around;
+}
+.haut_de_page p{
+    font-size: 36px;
+    font-style: italic;
+}
+.haut_de_page img{
+    margin-top: 30px;
+}
+.renseignement{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input[type="number"]{
+    padding: 0;
+   
+}
+.produits{
+    text-align: center;
+    margin-top: 60px;
+}
+.bouton{
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+button:hover{
+    cursor: pointer;
+}
+button{
+    padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 18px;
+}
+
+/*page traitement*/
+.coordonnees{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+.adresse_client p{
+    margin: 5px;
+}
+.art{
+    margin-left: 300px;
+    margin-top: 300px;
+}
+table{
+    border-width:1px; 
+    border-color:black;
+    width:60%;
+    text-align: center;
+    font-size: 22px;
+}
+td{
+    vertical-align:middle;
+    border-width:1px;
+    border-style:solid;
+}
+.tableau{
+    display: flex;
+    justify-content: center;
+}
+.tab2 table{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 440px;
+}
+.devis{
+    font-size: 55px;
+}
